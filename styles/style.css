@@ -1,0 +1,840 @@
+body {
+  margin: 0;
+}
+
+body.green {
+  background: #A5D6A7;
+}
+body.green .startpage-header {
+  padding: 40px;
+  box-shadow: 0 4px 5px 0 #81C784;
+}
+body.green .startpage-header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+body.green .startpage-header .logoPlace .logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+body.green .startpage-header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body.green .startpage-header .iconPlace .icons {
+  width: 17px;
+  margin: 10px;
+}
+body.green .startpage-header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+body.green .startpage-header .iconPlace #loginBtn {
+  text-decoration: none;
+}
+body.green #Startpage-bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+body.green #Startpage-bookList div {
+  background-color: #81C784;
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+body.green #Startpage-bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  height: 230px;
+}
+body.green .login-header {
+  padding: 40px;
+  box-shadow: 0 4px 5px 0 #81C784;
+}
+body.green .login-header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+body.green .login-header .logoPlace .logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+body.green .login-header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body.green .login-header .iconPlace .icons {
+  width: 17px;
+  margin: 10px;
+}
+body.green .login-header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+body.green .login-header .iconPlace #loginBtn {
+  text-decoration: none;
+}
+body.green .loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+body.green .loginPage .createAccountBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.green .loginPage .createAccountBox .space {
+  margin: 2px;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid #81C784;
+  background-color: #A5D6A7;
+}
+body.green .loginPage .createAccountBox #register {
+  width: 100px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #81C784;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+body.green .loginPage .authenticationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.green .loginPage .authenticationBox .space {
+  margin: 2px;
+  padding: 4px;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 2px solid #81C784;
+  background-color: #A5D6A7;
+}
+body.green .loginPage .authenticationBox #login {
+  width: 100px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #81C784;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+body.green #favorite-bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+body.green #favorite-bookList div {
+  background-color: #81C784;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+body.green #favorite-bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  height: 230px;
+}
+body.green #favorite-bookList div button {
+  background-color: #A5D6A7;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+}
+
+body.blue {
+  background: #81D4FA;
+}
+body.blue .startpage-header {
+  padding: 40px;
+  box-shadow: 0 4px 5px 0 #29B6F6;
+}
+body.blue .startpage-header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+body.blue .startpage-header .logoPlace .logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+body.blue .startpage-header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body.blue .startpage-header .iconPlace .icons {
+  width: 17px;
+  margin: 10px;
+}
+body.blue .startpage-header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+body.blue .startpage-header .iconPlace #loginBtn {
+  text-decoration: none;
+}
+body.blue #Startpage-bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+body.blue #Startpage-bookList div {
+  background-color: #4FC3F7;
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+body.blue #Startpage-bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  height: 230px;
+}
+body.blue .login-header {
+  padding: 40px;
+  box-shadow: 0 4px 5px 0 #29B6F6;
+}
+body.blue .login-header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+body.blue .login-header .logoPlace .logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+body.blue .login-header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body.blue .login-header .iconPlace .icons {
+  width: 17px;
+  margin: 10px;
+}
+body.blue .login-header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+body.blue .login-header .iconPlace #loginBtn {
+  text-decoration: none;
+}
+body.blue .loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+body.blue .loginPage .createAccountBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.blue .loginPage .createAccountBox .space {
+  margin: 2px;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid #29B6F6;
+  background-color: #81D4FA;
+}
+body.blue .loginPage .createAccountBox #register {
+  width: 100px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #29B6F6;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+body.blue .loginPage .authenticationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.blue .loginPage .authenticationBox .space {
+  margin: 2px;
+  padding: 4px;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 2px solid #29B6F6;
+  background-color: #81D4FA;
+}
+body.blue .loginPage .authenticationBox #login {
+  width: 100px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #29B6F6;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+body.blue #favorite-bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+body.blue #favorite-bookList div {
+  background-color: #29B6F6;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+body.blue #favorite-bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  height: 230px;
+}
+body.blue #favorite-bookList div button {
+  background-color: #81D4FA;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+}
+
+body.purple {
+  background: #B39DDB;
+}
+body.purple .startpage-header {
+  padding: 40px;
+  box-shadow: 0 4px 5px 0 #9575CD;
+}
+body.purple .startpage-header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+body.purple .startpage-header .logoPlace .logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+body.purple .startpage-header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body.purple .startpage-header .iconPlace .icons {
+  width: 17px;
+  margin: 10px;
+}
+body.purple .startpage-header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+body.purple .startpage-header .iconPlace #loginBtn {
+  text-decoration: none;
+}
+body.purple #Startpage-bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+body.purple #Startpage-bookList div {
+  background-color: #9575CD;
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+body.purple #Startpage-bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  height: 230px;
+}
+body.purple .login-header {
+  padding: 40px;
+  box-shadow: 0 4px 5px 0 #9575CD;
+}
+body.purple .login-header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+body.purple .login-header .logoPlace .logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+body.purple .login-header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body.purple .login-header .iconPlace .icons {
+  width: 17px;
+  margin: 10px;
+}
+body.purple .login-header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+body.purple .login-header .iconPlace #loginBtn {
+  text-decoration: none;
+}
+body.purple .loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+body.purple .loginPage .createAccountBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.purple .loginPage .createAccountBox .space {
+  margin: 2px;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid #9575CD;
+  background-color: #B39DDB;
+}
+body.purple .loginPage .createAccountBox #register {
+  width: 100px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #9575CD;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+body.purple .loginPage .authenticationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.purple .loginPage .authenticationBox .space {
+  margin: 2px;
+  padding: 4px;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 2px solid #9575CD;
+  background-color: #B39DDB;
+}
+body.purple .loginPage .authenticationBox #login {
+  width: 100px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #9575CD;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+body.purple #favorite-bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+body.purple #favorite-bookList div {
+  background-color: #9575CD;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+body.purple #favorite-bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  height: 230px;
+}
+body.purple #favorite-bookList div button {
+  background-color: #B39DDB;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+}
+
+body.beige {
+  background: #FFF3E0;
+}
+body.beige .startpage-header {
+  padding: 40px;
+  box-shadow: 0 4px 5px 0 #FFCC80;
+}
+body.beige .startpage-header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+body.beige .startpage-header .logoPlace .logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+body.beige .startpage-header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body.beige .startpage-header .iconPlace .icons {
+  width: 17px;
+  margin: 10px;
+}
+body.beige .startpage-header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+body.beige .startpage-header .iconPlace #loginBtn {
+  text-decoration: none;
+}
+body.beige #Startpage-bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+body.beige #Startpage-bookList div {
+  background-color: #FFE0B2;
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+body.beige #Startpage-bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  height: 230px;
+}
+body.beige .login-header {
+  padding: 40px;
+  box-shadow: 0 4px 5px 0 #FFCC80;
+}
+body.beige .login-header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+body.beige .login-header .logoPlace .logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+body.beige .login-header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body.beige .login-header .iconPlace .icons {
+  width: 17px;
+  margin: 10px;
+}
+body.beige .login-header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+body.beige .login-header .iconPlace #loginBtn {
+  text-decoration: none;
+}
+body.beige .loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+body.beige .loginPage .createAccountBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.beige .loginPage .createAccountBox .space {
+  margin: 2px;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid #FFCC80;
+  background-color: #FFF3E0;
+}
+body.beige .loginPage .createAccountBox #register {
+  width: 100px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #FFCC80;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+body.beige .loginPage .authenticationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.beige .loginPage .authenticationBox .space {
+  margin: 2px;
+  padding: 4px;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 2px solid #FFCC80;
+  background-color: #FFF3E0;
+}
+body.beige .loginPage .authenticationBox #login {
+  width: 100px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #FFCC80;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+body.beige #favorite-bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+body.beige #favorite-bookList div {
+  background-color: #FFE0B2;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+body.beige #favorite-bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  height: 230px;
+}
+body.beige #favorite-bookList div button {
+  background-color: #FFCC80;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+}
+
+.header {
+  box-shadow: 0 4px 5px 0 #FFCC80;
+}
+.header .logoPlace {
+  display: flex;
+  justify-content: center;
+}
+.header .logoPlace .logo {
+  width: 180px;
+}
+.header .iconPlace {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .iconPlace .icons {
+  width: 17px;
+  margin: 20px;
+}
+.header .iconPlace .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  right: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+
+#logout {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+#logout :hover {
+  background-color: #FFAB00;
+}
+
+#bookList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: pre;
+}
+#bookList div {
+  background-color: #FFE0B2;
+  width: 300px;
+  height: 450px;
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+#bookList div img {
+  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  height: 230px;
+}
+#bookList div button {
+  background-color: #FFCC80;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+}
+#bookList div select {
+  background-color: #FFCC80;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,989 @@
+body {
+    margin: 0;
+}
+
+body.green {
+    background: #A5D6A7;
+
+    .startpage-header {
+        padding: 40px;
+        box-shadow: 0 4px 5px 0 #81C784;
+
+        .logoPlace {
+            display: flex;
+            justify-content: center; 
+        
+            .logo {
+                width: 180px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .iconPlace {
+        
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        
+            .icons {
+                width: 17px;
+                margin: 10px;
+            }
+        
+            .userInfo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: absolute;
+                right: 30px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 18px;
+            }
+    
+            #loginBtn {
+                text-decoration: none;
+            }
+        }
+    }    
+
+    #Startpage-bookList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        white-space: pre;
+         
+        div {
+            background-color: #81C784;
+            width: 300px;
+            height: 250px;
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin: 50px;
+            padding-bottom: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+    
+            img {
+                box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 20px;
+                height: 230px;
+                
+            }
+        }
+    }
+
+    .login-header {
+        padding: 40px;
+        box-shadow: 0 4px 5px 0 #81C784;;
+    
+        .logoPlace {
+            display: flex;
+            justify-content: center; 
+        
+            .logo {
+                width: 180px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .iconPlace {
+        
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        
+            .icons {
+                width: 17px;
+                margin: 10px;
+            }
+        
+            .userInfo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: absolute;
+                right: 30px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 18px;
+            }
+    
+            #loginBtn {
+                text-decoration: none;
+            }
+        }
+    
+    }
+
+    .loginPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+        font-family: 'Quicksand', sans-serif;
+    
+    
+        .createAccountBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            
+            .space {
+                margin: 2px;
+                padding: 4px;
+                border: none;
+                border-bottom: 2px solid #81C784;
+                background-color: #A5D6A7;
+            }
+    
+            #register {
+                width: 100px;
+                padding: 3px;
+                margin: 5px;
+                background-color: #81C784;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 7px;
+                margin: 5px;    
+            }
+        }
+    
+        .authenticationBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            
+            .space {
+                margin: 2px;
+                padding: 4px;
+                border-radius: 2px;
+                border: none;
+                border-bottom: 2px solid #81C784;
+                background-color: #A5D6A7;
+                
+            }
+    
+            #login {
+                width: 100px;
+                padding: 3px;
+                margin: 5px;
+                background-color: #81C784;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 7px;
+                margin: 5px;        
+            }
+        }
+    } 
+    #favorite-bookList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        white-space: pre;
+         
+        div {
+            background-color: #81C784;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+    
+            img {
+                box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 20px;
+                height: 230px;
+            }
+    
+            button {
+                background-color: #A5D6A7;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 10px;
+                margin: 5px; 
+            }
+        }
+    }
+}
+
+body.blue {
+    background: #81D4FA;
+
+    .startpage-header {
+        padding: 40px;
+        box-shadow: 0 4px 5px 0 #29B6F6;
+
+        .logoPlace {
+            display: flex;
+            justify-content: center; 
+        
+            .logo {
+                width: 180px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .iconPlace {
+        
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        
+            .icons {
+                width: 17px;
+                margin: 10px;
+            }
+        
+            .userInfo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: absolute;
+                right: 30px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 18px;
+            }
+    
+            #loginBtn {
+                text-decoration: none;
+            }
+        }
+    }    
+
+    #Startpage-bookList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        white-space: pre;
+         
+        div {
+            background-color: #4FC3F7;
+            width: 300px;
+            height: 250px;
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin: 50px;
+            padding-bottom: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+    
+            img {
+                box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 20px;
+                height: 230px;
+                
+            }
+        }
+    }
+
+    .login-header {
+        padding: 40px;
+        box-shadow: 0 4px 5px 0 #29B6F6
+        ;
+    
+        .logoPlace {
+            display: flex;
+            justify-content: center; 
+        
+            .logo {
+                width: 180px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .iconPlace {
+        
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        
+            .icons {
+                width: 17px;
+                margin: 10px;
+            }
+        
+            .userInfo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: absolute;
+                right: 30px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 18px;
+            }
+    
+            #loginBtn {
+                text-decoration: none;
+            }
+        }
+    
+    }
+    .loginPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+        font-family: 'Quicksand', sans-serif;
+    
+    
+        .createAccountBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            
+            .space {
+                margin: 2px;
+                padding: 4px;
+                border: none;
+                border-bottom: 2px solid #29B6F6;
+                background-color: #81D4FA;
+            }
+    
+            #register {
+                width: 100px;
+                padding: 3px;
+                margin: 5px;
+                background-color: #29B6F6;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 7px;
+                margin: 5px;    
+            }
+        }
+    
+        .authenticationBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            
+            .space {
+                margin: 2px;
+                padding: 4px;
+                border-radius: 2px;
+                border: none;
+                border-bottom: 2px solid #29B6F6;
+                background-color: #81D4FA;
+                
+            }
+    
+            #login {
+                width: 100px;
+                padding: 3px;
+                margin: 5px;
+                background-color: #29B6F6;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 7px;
+                margin: 5px;        
+            }
+        }
+    } 
+    #favorite-bookList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        white-space: pre;
+         
+        div {
+            background-color: #29B6F6;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+    
+            img {
+                box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 20px;
+                height: 230px;
+            }
+    
+            button {
+                background-color: #81D4FA;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 10px;
+                margin: 5px; 
+            }
+        }
+    }
+}
+
+body.purple {
+    background: #B39DDB;
+
+    .startpage-header {
+        padding: 40px;
+        box-shadow: 0 4px 5px 0 #9575CD;
+
+        .logoPlace {
+            display: flex;
+            justify-content: center; 
+        
+            .logo {
+                width: 180px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .iconPlace {
+        
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        
+            .icons {
+                width: 17px;
+                margin: 10px;
+            }
+        
+            .userInfo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: absolute;
+                right: 30px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 18px;
+            }
+    
+            #loginBtn {
+                text-decoration: none;
+            }
+        }
+    }    
+
+    #Startpage-bookList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        white-space: pre;
+         
+        div {
+            background-color: #9575CD;
+            width: 300px;
+            height: 250px;
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin: 50px;
+            padding-bottom: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+    
+            img {
+                box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 20px;
+                height: 230px;
+                
+            }
+        }
+    }
+
+    .login-header {
+        padding: 40px;
+        box-shadow: 0 4px 5px 0 #9575CD
+        ;
+    
+        .logoPlace {
+            display: flex;
+            justify-content: center; 
+        
+            .logo {
+                width: 180px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .iconPlace {
+        
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        
+            .icons {
+                width: 17px;
+                margin: 10px;
+            }
+        
+            .userInfo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: absolute;
+                right: 30px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 18px;
+            }
+    
+            #loginBtn {
+                text-decoration: none;
+            }
+        }
+    
+    }
+
+    .loginPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+        font-family: 'Quicksand', sans-serif;
+    
+    
+        .createAccountBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            
+            .space {
+                margin: 2px;
+                padding: 4px;
+                border: none;
+                border-bottom: 2px solid #9575CD;
+                background-color: #B39DDB;
+            }
+    
+            #register {
+                width: 100px;
+                padding: 3px;
+                margin: 5px;
+                background-color: #9575CD;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 7px;
+                margin: 5px;    
+            }
+        }
+    
+        .authenticationBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            
+            .space {
+                margin: 2px;
+                padding: 4px;
+                border-radius: 2px;
+                border: none;
+                border-bottom: 2px solid #9575CD;
+                background-color: #B39DDB;
+                
+            }
+    
+            #login {
+                width: 100px;
+                padding: 3px;
+                margin: 5px;
+                background-color: #9575CD;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 7px;
+                margin: 5px;        
+            }
+        }
+    } 
+    #favorite-bookList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        white-space: pre;
+         
+        div {
+            background-color: #9575CD;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+    
+            img {
+                box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 20px;
+                height: 230px;
+            }
+    
+            button {
+                background-color: #B39DDB;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 10px;
+                margin: 5px; 
+            }
+        }
+    }
+}
+
+body.beige {
+    background: #FFF3E0;
+
+    .startpage-header {
+        padding: 40px;
+        box-shadow: 0 4px 5px 0 #FFCC80;
+
+        .logoPlace {
+            display: flex;
+            justify-content: center; 
+        
+            .logo {
+                width: 180px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .iconPlace {
+        
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        
+            .icons {
+                width: 17px;
+                margin: 10px;
+            }
+        
+            .userInfo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: absolute;
+                right: 30px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 18px;
+            }
+    
+            #loginBtn {
+                text-decoration: none;
+            }
+        }
+    }
+
+    #Startpage-bookList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        white-space: pre;
+         
+        div {
+            background-color: #FFE0B2;
+            width: 300px;
+            height: 250px;
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin: 50px;
+            padding-bottom: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+    
+            img {
+                box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 20px;
+                height: 230px;
+                
+            }
+        }
+    }
+
+    .login-header {
+        padding: 40px;
+        box-shadow: 0 4px 5px 0 #FFCC80
+        ;
+    
+        .logoPlace {
+            display: flex;
+            justify-content: center; 
+        
+            .logo {
+                width: 180px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .iconPlace {
+        
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        
+            .icons {
+                width: 17px;
+                margin: 10px;
+            }
+        
+            .userInfo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: absolute;
+                right: 30px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 18px;
+            }
+    
+            #loginBtn {
+                text-decoration: none;
+            }
+        }
+    
+    }
+
+    .loginPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+        font-family: 'Quicksand', sans-serif;
+    
+    
+        .createAccountBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            
+            .space {
+                margin: 2px;
+                padding: 4px;
+                border: none;
+                border-bottom: 2px solid #FFCC80;
+                background-color: #FFF3E0;
+            }
+    
+            #register {
+                width: 100px;
+                padding: 3px;
+                margin: 5px;
+                background-color: #FFCC80;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 7px;
+                margin: 5px;    
+            }
+        }
+    
+        .authenticationBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            
+            .space {
+                margin: 2px;
+                padding: 4px;
+                border-radius: 2px;
+                border: none;
+                border-bottom: 2px solid #FFCC80;
+                background-color: #FFF3E0;
+                
+            }
+    
+            #login {
+                width: 100px;
+                padding: 3px;
+                margin: 5px;
+                background-color: #FFCC80;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 7px;
+                margin: 5px;        
+            }
+        }
+    } 
+    #favorite-bookList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        white-space: pre;
+         
+        div {
+            background-color: #FFE0B2;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+    
+            img {
+                box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 20px;
+                height: 230px;
+            }
+    
+            button {
+                background-color: #FFCC80;
+                border-radius: 4px; 
+                border: none;
+                cursor: pointer;   
+                padding: 10px;
+                margin: 5px; 
+            }
+        }
+    }
+}
+
+.header {
+    box-shadow: 0 4px 5px 0 #FFCC80
+    ;
+
+.logoPlace {
+    display: flex;
+    justify-content: center; 
+
+    .logo {
+        width: 180px;
+    }
+}
+
+.iconPlace {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .icons {
+        width: 17px;
+        margin: 20px;
+    }
+
+    .userInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: absolute;
+        right: 50px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+    }
+}
+}
+
+#logout {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+    :hover {
+        background-color: #FFAB00;
+    }
+}
+
+#bookList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    white-space: pre;
+     
+    div {
+        background-color: #FFE0B2;
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        margin: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+
+        img {
+            box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 10px;
+            height: 230px;
+        }
+        button {
+            background-color: #FFCC80;
+            border-radius: 4px; 
+            border: none;
+            cursor: pointer;   
+            padding: 7px;
+            margin: 5px; 
+        }
+
+        select {
+            background-color: #FFCC80;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 10px;
+}

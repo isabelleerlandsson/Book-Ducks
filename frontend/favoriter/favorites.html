@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="script.js" type="module" defer></script>
+    <script src="login.js" type="module" defer></script>
+    <script src="favorites.js" type="module" defer></script>
+    <script src="profile.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Book Ducks</title>
+</head>
+<body>
+
+    <p id="logout"></p>
+    
+    <header class="header">
+        <div class="logoPlace">
+            <a href="/frontend/profile/profile.html"> <img class="logo" src="/img/logo.png" alt="Företagets logga. Ordet Books med tre ankor efter sig"></a>
+        </div>
+    
+        <div class="iconPlace">
+                <div class="userInfo">
+                <p><span id="displayUsername"></span></p>
+                <a href="/frontend/profile/profile.html" class="dropbtn"><img src="/img/user.png" alt="Bild på en användarikon" class="icons"></a>
+                </div>
+                <a href="/frontend/favoriter/favorites.html"><img src="/img/favorite.png" alt="Bild på ett hjärta" class="icons"></a>
+        </div>
+    
+    </header>
+
+    <h2>Dina sparade favoriter</h2>
+    <main>
+        <div id="favorite-bookList">
+            <p class="averageGrade"></p>
+
+        </div>
+
+    </main>
+</body>
+</html>
